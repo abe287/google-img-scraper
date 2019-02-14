@@ -6,11 +6,11 @@ import os
 import time
 
 path = os.path.dirname(__file__)
-
 chrome_options = webdriver.ChromeOptions()
 #chrome_options.add_argument("--headless")
-
 link_list = []
+
+
 print("What images would you like to download?")
 keyword = input()
 
